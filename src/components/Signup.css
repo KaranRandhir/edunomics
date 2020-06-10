@@ -1,0 +1,55 @@
+.signup {
+    
+    position: relative;
+}
+
+.signup__pic {
+    height: 80vh;
+    position: absolute;
+    left: 20vw;
+    top:10vh;
+}
+
+.signup__form {
+    background-color: #3672ff;
+    height: fit-content;
+    padding: 2rem;
+    width: 30vw;
+   
+    position: absolute;
+    left: 45vw;
+    top: 20vh;
+    min-width: fit-content;
+    
+
+}
+
+.signup__form .form .feild input{
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.signup__form .form .feild {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.signup__form .form .feild  {
+    color: whitesmoke;
+}
+
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup__form__heading{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

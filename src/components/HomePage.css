@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.home-page {
+    background: url("../assets/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0 !important;
+    position: relative;
+}
+.home-page__title {
+    width: 60vw;
+    margin: auto;
+  
+    line-height: 3.5rem;
+    text-align: center;
+    color: whitesmoke;
+    margin: auto;
+    margin-top: 18rem;
+
+}
+
+.home-page__title__main {
+ 
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.home-page__title__sub {
+    font-size: 1.5rem;
+    
+}

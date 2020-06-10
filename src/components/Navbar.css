@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 1.5rem;
+}
+
+.navbar__right {
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar__company-name {
+    font-size: 2rem;
+}
+
+.navbar__right__login {
+    margin-right: 2rem;
+}
